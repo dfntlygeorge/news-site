@@ -1,0 +1,20 @@
+{
+  "name": "news-search-app",
+  "version": "1.0.0",
+  "description": "1. npm init -y\r 2. \"tailwind\": \"npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch\",\r     \"prettier\": \"npx prettier --write **/*.html\" sa script\r 3. npm install -D tailwindcss postcss-cli autoprefixer\r npx tailwindcss init\r 4. \"./public/**/*.{html,js}\"` on tailwind config\r 5. npm install -D prettier prettier-plugin-tailiwindcss\r 6. just restart",
+  "main": "postcss.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.6"
+  }
+}
